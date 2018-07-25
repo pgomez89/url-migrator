@@ -1,0 +1,22 @@
+{
+  "name": "famacity-url-parse",
+  "version": "0.0.1",
+  "description": "A parse for a Farmacity URL Migrations",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pgomez89/fcity-url-parser.git"
+  },
+  "author": "Pablo Damián Gómez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pgomez89/fcity-url-parser/issues"
+  },
+  "homepage": "https://github.com/pgomez89/fcity-url-parser#readme",
+  "dependencies": {
+    "url-parser": "0.0.1"
+  }
+}
