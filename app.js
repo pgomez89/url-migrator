@@ -23,6 +23,9 @@ function parseUrl(line,category) {
         line.lastIndexOf(category) + 2, 
         line.search(/\/([^a-z ]*([.0-9])*\d)/) + 1
     );
+    if(line.split("/").length >= 6){
+        console.log(mySubString);
+    }
     return mySubString;
 }
 
